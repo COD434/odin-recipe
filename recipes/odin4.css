@@ -1,0 +1,33 @@
+
+.page{
+    background-color:blanchedalmond ;
+    border: 4px solid burlywood;
+}
+li{
+    font-style: italic;
+    font-size: 20px;
+}
+ol{
+    font-style: italic;
+    font-size: 20px;
+}
+.special{
+    border: 4px solid teal;
+
+}
+p{
+    font-style: italic;
+    font-size: 20px;
+}
+.links div{
+    border: 4px solid burlywood;
+
+
+}
+.links{
+    justify-content: space-between;
+    display:flex;
+}
+.img div{
+    text-align: center;
+}

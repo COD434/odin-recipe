@@ -1,0 +1,222 @@
+*{padding: 0;
+margin: 0;}
+
+.first-section,
+.second-section,
+.third-section,
+.fourth-section{
+    min-height: 50vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+}
+.first-section{
+    background-color:#1F2937;
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-list{
+    justify-content: right;
+    font-style: italic;
+    align-items: end;
+    flex:1;
+    flex-direction: column;
+}
+#header-logo{
+    color:white;
+    font-size: 24px;
+}
+.header-link{
+    font-size: 18px;
+    color: aqua;
+}
+.navbar-ul{
+    display:flex;
+    gap:20px;
+}
+
+.navbar-left{
+    display:flex;
+ flex:1;
+ justify-content: center;   
+}
+.navbar-right{
+    display:flex;
+    flex:1;
+    justify-content: center;
+}
+.first-section-content{
+    background-color:#1F2937;
+    display:flex;
+}
+#content-main-text{
+    font-size: 48px;
+    color:aliceblue;
+    font-weight:bold;
+}
+#content-sub-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-left: 130px;
+}
+#baked{
+    border-radius: 100px;
+    width:500px;
+    margin: 50px;
+}
+.content-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.content-right{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+#btn-sign-up{
+    display: flex ;
+    background-color: aqua;
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align:center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 200px;
+    margin-top: 10px;
+    border-radius: 100px;
+}
+.top{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#main-text{
+    font-size:36px;
+    color: black ;
+    font-size:50px;
+}
+.second-section-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    gap: 100px;
+}
+.orange-box{
+    display: flex;
+    border: solid #F8B67C;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+#box-text{
+    font-size: 18px;
+}
+.third-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+.quote-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+#inspirational-quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+}
+.quoter{
+    margin-left:500px;
+}
+#person-quoter{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.fourth-section-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    border-radius:30px;
+    height:400px;
+    margin-top: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.fourth-section-content-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.fourth-section-content-right{
+    display: flex;
+    flex:1;
+justify-content: center;
+align-items: center;
+}
+#fourth-section-content-left-main-text{
+    font-size: 30px;
+    color:#F9FAF8;
+    font-weight: bolder;
+}
+#fourth-section-content-left-sub-text{
+    font-size: 18px;
+    color:#F9FAF8;
+    margin-left: 190px;
+}
+#btn-fourth-sign-up{
+    display:flex;
+    background-color: #F8B67C;
+    border: 4px solid white;
+    color:white;
+    padding:20px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right:200px;
+    margin-top: 10px;
+    border-radius: 100px;
+
+}
+
+
+
+.footer{
+    display:flex;
+    min-height: 10px;
+    background-color:black;
+    justify-content: center;
+    align-items: center;
+
+}
+#footer-message{
+    color:white;
+}
